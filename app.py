@@ -88,11 +88,6 @@ def asiageorgia():
     return render_template('asia/georgia.html', time=datetime.now())
 
 
-@app.route('/asia/hongkong')
-def asiahongkong():
-    return render_template('asia/hongkong.html', time=datetime.now())
-
-
 @app.route('/asia/india')
 def asiaindia():
     return render_template('asia/india.html', time=datetime.now())
@@ -233,11 +228,6 @@ def asiasyria():
     return render_template('asia/syria.html', time=datetime.now())
 
 
-@app.route('/asia/taiwan')
-def asiataiwan():
-    return render_template('asia/taiwan.html', time=datetime.now())
-
-
 @app.route('/asia/tajikstan')
 def asiatajikstan():
     return render_template('asia/tajikstan.html', time=datetime.now())
@@ -276,6 +266,22 @@ def asiavietnam():
 @app.route('/asia/yemen')
 def asiayemen():
     return render_template('asia/yemen.html', time=datetime.now())
+
+
+#ASIA DEPENDENCIES
+@app.route('/asia/taiwan')
+def asiataiwan():
+    return render_template('asia/taiwan.html', time=datetime.now())
+
+
+@app.route('/asia/hongkong')
+def asiahongkong():
+    return render_template('asia/hongkong.html', time=datetime.now())
+
+
+@app.route('/asia/macao')
+def asiamacao():
+    return render_template('asia/macao.html', time=datetime.now())
 
 
 # LATIN AMERICA
@@ -524,3 +530,20 @@ def latinAmericaUSVirginIslands():
 @app.route('/latinAmerica/puertoRico')
 def latinAmericapuertoRico():
     return render_template('latinAmerica/puertoRico.html', time=datetime.now())
+
+
+# EUROPEAN COUNTRIES
+# https://www.worldometers.info/geography/how-many-countries-in-europe/
+# DEPENDENCIES IN EUROPE
+
+# AFRICAN COUNTIRES
+# https://www.worldometers.info/geography/how-many-countries-in-africa/
+# AFRICAN IN EUROPE
+
+# OCEANA COUNTRIES
+# https://www.worldometers.info/geography/how-many-countries-in-oceania/
+# DEPENDENCIES OCEANA
+
+# NORTH AMERICA
+# https://www.worldometers.info/geography/how-many-countries-in-northern-america/
+# NORTH AMERICA DEPENDENCIES

@@ -275,8 +275,8 @@ def asiataiwan():
 
 
 @app.route('/asia/hongkong')
-def asiahongkong():
-    return render_template('asia/hongkong.html', time=datetime.now())
+def asiahongKong():
+    return render_template('asia/hongKong.html', time=datetime.now())
 
 
 @app.route('/asia/macao')
